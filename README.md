@@ -1,7 +1,7 @@
 # Join-us
 
 **Description:**
-Simple RWD subscription information page
+Simple RWD subscription information page.
 
 **Why:**
 This project was created to practice flexbox layout module.
@@ -11,4 +11,3 @@ This project was created to practice flexbox layout module.
 - CSS3
 - SCSS
 - BEM methodology
-
