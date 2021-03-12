@@ -1,0 +1,144 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: none;
+}
+
+.flexbox {
+  margin: 150px auto;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 600px;
+  -webkit-box-shadow: 5px 5px 15px 2px #5B5B5B;
+          box-shadow: 5px 5px 15px 2px #5B5B5B;
+}
+
+.flexbox__join {
+  height: 300px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flexbox__heading1 {
+  color: #6b5b95;
+  margin: 0;
+}
+
+.flexbox__heading2--join {
+  color: #929d9e;
+  margin: 15px 0;
+}
+
+.flexbox__para--join {
+  color: #7b7f86;
+  margin: 0;
+}
+
+.flexbox__sub {
+  height: 300px;
+  background-color: #6b5b95;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flexbox__heading2--others {
+  margin: 0;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+
+.flexbox__para--price {
+  color: #ffffff;
+  font-size: 200%;
+  margin: 15px 0;
+}
+
+.flexbox__span {
+  color: #929d9e;
+  font-size: 60%;
+  vertical-align: 25%;
+}
+
+.flexbox__para--normal {
+  color: #ffffff;
+}
+
+.flexbox__button {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 110%;
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  background-color: #a2b9bc;
+}
+
+.flexbox__button--hover:hover {
+  cursor: pointer;
+  outline: none;
+  color: #615b5b;
+  background-color: #b2bbbd;
+}
+
+.flexbox__button--hover:focus {
+  cursor: pointer;
+  outline: none;
+  color: #615b5b;
+  background-color: #b2bbbd;
+}
+
+.flexbox__whyus {
+  height: 300px;
+  background-color: #8b77c0;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.flexbox__list {
+  margin: 0;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px 0 0 0;
+  line-height: 1.5em;
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+    margin: 0;
+  }
+  .flexbox {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-top: 0;
+  }
+  .flexbox__join {
+    height: auto;
+  }
+  .flexbox__sub {
+    height: auto;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .flexbox__whyus {
+    height: auto;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
