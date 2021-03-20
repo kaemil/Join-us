@@ -4,7 +4,7 @@
 Simple RWD subscription information page.
 
 **Why:**
-This project was created to practice flexbox layout module.
+This project was created to practice flexbox layout module and HTML form tags.
 
 **Skills used:**
 - HTML5
