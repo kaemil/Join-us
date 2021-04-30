@@ -11,3 +11,6 @@ This project was created to practice flexbox layout module and HTML form tags.
 - CSS3
 - SCSS
 - BEM methodology
+
+**Link**
+https://kaemil.github.io/Join-us/
